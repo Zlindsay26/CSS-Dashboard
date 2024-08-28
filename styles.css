@@ -240,8 +240,23 @@ input:focus{
 }
 
  .spacer{
-  height: 40px;
-  background-color:#d1d5db;
+  height: 60px;
+  display: flex;
 }
-  
+.side-space{
+width: 20%;
+background-color: #2563eb;
+}
+.main-space{
+  background-color: #d1d5db;
+  width: 80%;
+}
+
+footer{
+  text-decoration: underline;
+  color: #2563eb;
+  position: absolute;
+  bottom: -360px;
+  right: 480px;
+}
   
